@@ -1,0 +1,23 @@
+{
+  "name": "fe-webhook",
+  "version": "1.0.0",
+  "description": "前端自动发版 nodejs脚本",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bill-mark/fe-webhook.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bill-mark/fe-webhook/issues"
+  },
+  "homepage": "https://github.com/bill-mark/fe-webhook#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "http": "0.0.1-security"
+  }
+}
