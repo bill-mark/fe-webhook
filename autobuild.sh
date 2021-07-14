@@ -10,7 +10,7 @@ git fetch --all
 git reset --hard origin/main
 git pull
 echo "changing permissions..."
-npm install
+yarn
 npm run build
 echo "build end"
 #chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH
