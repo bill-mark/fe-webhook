@@ -7,7 +7,7 @@ cd $WEB_PATH
 echo `pwd`
 echo "pulling source code..."
 git fetch --all
-git reset --hard origin/master
+git reset --hard origin/main
 git pull
 echo "changing permissions..."
 npm install
