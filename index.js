@@ -26,7 +26,7 @@ http
 
       console.log('next callfile')
 
-      callfile.execFile("deploy.sh", ["giturl", giturl]);
+      callfile.execFile("autobuild.sh", ["giturl", giturl]);
 
       res.end("ok");
     }
